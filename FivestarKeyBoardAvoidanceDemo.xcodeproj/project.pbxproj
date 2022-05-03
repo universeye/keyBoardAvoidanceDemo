@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF0A3C3E2820DAF200F8A8C3 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0A3C3D2820DAF200F8A8C3 /* APIKeys.swift */; };
 		BF1D0C2F281BB90B00084909 /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1D0C2E281BB90B00084909 /* View+Ext.swift */; };
 		BF1FC3842817EAAB00DC8A0B /* FivestarKeyBoardAvoidanceDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1FC3832817EAAB00DC8A0B /* FivestarKeyBoardAvoidanceDemoApp.swift */; };
 		BF1FC3862817EAAB00DC8A0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1FC3852817EAAB00DC8A0B /* ContentView.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF0A3C3D2820DAF200F8A8C3 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
 		BF1D0C2E281BB90B00084909 /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
 		BF1FC3802817EAAB00DC8A0B /* FivestarKeyBoardAvoidanceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FivestarKeyBoardAvoidanceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1FC3832817EAAB00DC8A0B /* FivestarKeyBoardAvoidanceDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FivestarKeyBoardAvoidanceDemoApp.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				BFD8D473281A8A6500965A9C /* ReadAViewSizeDemo.swift */,
 				BF1D0C2E281BB90B00084909 /* View+Ext.swift */,
 				BF1FC3872817EAAC00DC8A0B /* Assets.xcassets */,
+				BF0A3C3D2820DAF200F8A8C3 /* APIKeys.swift */,
 				BF1FC3892817EAAC00DC8A0B /* Preview Content */,
 			);
 			path = FivestarKeyBoardAvoidanceDemo;
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF1D0C2F281BB90B00084909 /* View+Ext.swift in Sources */,
+				BF0A3C3E2820DAF200F8A8C3 /* APIKeys.swift in Sources */,
 				BFD8D474281A8A6500965A9C /* ReadAViewSizeDemo.swift in Sources */,
 				BF1FC3862817EAAB00DC8A0B /* ContentView.swift in Sources */,
 				BF1FC3842817EAAB00DC8A0B /* FivestarKeyBoardAvoidanceDemoApp.swift in Sources */,
