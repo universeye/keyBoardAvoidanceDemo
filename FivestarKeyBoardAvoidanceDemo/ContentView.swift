@@ -8,9 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var redSize: CGSize = .zero
+    @State private var yellowSize: CGSize = .zero
+    @State private var name: String = ""
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Color.red
+                .overlay(Text(verbatim: "\(redSize)"))
+                .readSize {
+                    redSize = $0
+                }
+            
+            TextField("Name:", text: $name)
+            
+            Color.yellow
+                .overlay(Text(verbatim: "\(yellowSize)"))
+                .readSize {
+                    yellowSize = $0
+                }
+        }
+        .padding()
     }
 }
 
@@ -19,3 +37,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+

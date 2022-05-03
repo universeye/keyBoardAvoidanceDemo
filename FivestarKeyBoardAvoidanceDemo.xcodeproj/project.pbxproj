@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF1D0C2F281BB90B00084909 /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1D0C2E281BB90B00084909 /* View+Ext.swift */; };
 		BF1FC3842817EAAB00DC8A0B /* FivestarKeyBoardAvoidanceDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1FC3832817EAAB00DC8A0B /* FivestarKeyBoardAvoidanceDemoApp.swift */; };
 		BF1FC3862817EAAB00DC8A0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1FC3852817EAAB00DC8A0B /* ContentView.swift */; };
 		BF1FC3882817EAAC00DC8A0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF1FC3872817EAAC00DC8A0B /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 		BF1FC3952817EAAD00DC8A0B /* FivestarKeyBoardAvoidanceDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1FC3942817EAAD00DC8A0B /* FivestarKeyBoardAvoidanceDemoTests.swift */; };
 		BF1FC39F2817EAAD00DC8A0B /* FivestarKeyBoardAvoidanceDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1FC39E2817EAAD00DC8A0B /* FivestarKeyBoardAvoidanceDemoUITests.swift */; };
 		BF1FC3A12817EAAD00DC8A0B /* FivestarKeyBoardAvoidanceDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1FC3A02817EAAD00DC8A0B /* FivestarKeyBoardAvoidanceDemoUITestsLaunchTests.swift */; };
+		BFD8D474281A8A6500965A9C /* ReadAViewSizeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD8D473281A8A6500965A9C /* ReadAViewSizeDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF1D0C2E281BB90B00084909 /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
 		BF1FC3802817EAAB00DC8A0B /* FivestarKeyBoardAvoidanceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FivestarKeyBoardAvoidanceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1FC3832817EAAB00DC8A0B /* FivestarKeyBoardAvoidanceDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FivestarKeyBoardAvoidanceDemoApp.swift; sourceTree = "<group>"; };
 		BF1FC3852817EAAB00DC8A0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +47,7 @@
 		BF1FC39A2817EAAD00DC8A0B /* FivestarKeyBoardAvoidanceDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FivestarKeyBoardAvoidanceDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1FC39E2817EAAD00DC8A0B /* FivestarKeyBoardAvoidanceDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FivestarKeyBoardAvoidanceDemoUITests.swift; sourceTree = "<group>"; };
 		BF1FC3A02817EAAD00DC8A0B /* FivestarKeyBoardAvoidanceDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FivestarKeyBoardAvoidanceDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BFD8D473281A8A6500965A9C /* ReadAViewSizeDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadAViewSizeDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				BF1FC3832817EAAB00DC8A0B /* FivestarKeyBoardAvoidanceDemoApp.swift */,
 				BF1FC3852817EAAB00DC8A0B /* ContentView.swift */,
+				BFD8D473281A8A6500965A9C /* ReadAViewSizeDemo.swift */,
+				BF1D0C2E281BB90B00084909 /* View+Ext.swift */,
 				BF1FC3872817EAAC00DC8A0B /* Assets.xcassets */,
 				BF1FC3892817EAAC00DC8A0B /* Preview Content */,
 			);
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF1D0C2F281BB90B00084909 /* View+Ext.swift in Sources */,
+				BFD8D474281A8A6500965A9C /* ReadAViewSizeDemo.swift in Sources */,
 				BF1FC3862817EAAB00DC8A0B /* ContentView.swift in Sources */,
 				BF1FC3842817EAAB00DC8A0B /* FivestarKeyBoardAvoidanceDemoApp.swift in Sources */,
 			);
